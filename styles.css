@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+:root {
+      --page-bg: rgb(135, 206, 235);
+    }
+
+    body {
+      background-color: var(--page-bg);
+      margin: 20px;
+      font-family: Arial, sans-serif;
+    }
+article p:first-child{
+	background-color:black;
+	color:white;
+}
+article p:nth-child(2){
+	color:inherit;
+}
+article p:last-child{
+	color:red;
+}
+ul li:nth-child(odd) {
+    background-color: white;
+}
+ul li:first-child,
+ul li:last-child {
+     font-size: 22px;
+}
+
+ul li:nth-last-child(3) {
+    background-color: pink;
+}
